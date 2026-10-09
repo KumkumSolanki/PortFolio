@@ -1,0 +1,28 @@
+kind = "web"
+previewPath = "/"
+title = "Kumkum Solanki Portfolio"
+description = "A colorful, professional portfolio showcasing Kumkum Solanki's AI/ML and software development projects, technical skills, education, and career opportunities."
+version = "1.0.0"
+id = "artifacts/kumkum-portfolio"
+router = "path"
+
+[[services]]
+name = "web"
+paths = [ "/" ]
+localPort = 25598
+
+[services.development]
+run = "pnpm --filter @workspace/kumkum-portfolio run dev"
+
+[services.production]
+build = [ "pnpm", "--filter", "@workspace/kumkum-portfolio", "run", "build" ]
+serve = "static"
+publicDir = "artifacts/kumkum-portfolio/dist/public"
+
+[[services.production.rewrites]]
+from = "/*"
+to = "/index.html"
+
+[services.env]
+PORT = "25598"
+BASE_PATH = "/"

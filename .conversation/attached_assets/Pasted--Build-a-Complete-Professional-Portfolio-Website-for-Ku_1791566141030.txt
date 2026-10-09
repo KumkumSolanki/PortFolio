@@ -1,0 +1,582 @@
+# Build a Complete Professional Portfolio Website for Kumkum Solanki
+
+Act as an expert full-stack developer, UI/UX designer, creative frontend engineer, and technical portfolio strategist.
+
+Build a complete, working, visually stunning personal portfolio website for **Kumkum Solanki**, focused exclusively on my professional profile, education, technical skills, projects, achievements, and job opportunities.
+
+Start from scratch. Do not create a generic portfolio template. I want a colorful, modern, animated, premium-quality website that showcases my capabilities as an AI/ML graduate and software developer.
+
+The website must be fully implemented, responsive, functional, and ready to publish.
+
+IMPORTANT EXCLUSIONS:
+Do not include Instagram followers, influencer activities, UGC, fashion, beauty, skincare, brand collaborations, or my creative content creation portfolio. This website is strictly for my technical career and professional job applications.
+
+---
+
+## 1. My Personal and Professional Information
+
+**Name:** Kumkum Solanki
+
+**Professional title:** AI/ML Engineer Aspirant | Software Developer | Data Science Enthusiast
+
+**Location:** Khurja, Uttar Pradesh, India
+
+**Email:** [kumkumsolanki0111@gmail.com](mailto:kumkumsolanki0111@gmail.com)
+
+**Phone:** +91-9058465295
+
+### Professional introduction
+
+"I'm Kumkum Solanki, a Computer Science graduate specializing in Artificial Intelligence and Machine Learning. I enjoy building practical applications, exploring machine learning techniques, analyzing data, and developing software that solves real-world problems.
+
+My projects include ResuMatch, an AI-powered resume analysis and enhancement platform, a plant disease detection system using deep learning, a stock price prediction system, and a computer vision-based traffic detection project.
+
+I am interested in AI/ML engineering, data science, data analytics, and software development opportunities where I can apply my technical knowledge, contribute to meaningful projects, and continue growing as an engineer."
+
+Make this introduction editable through a central configuration file.
+
+---
+
+## 2. Colorful Website Design
+
+Create a vibrant, colorful, premium, modern portfolio with a distinctive visual identity.
+
+I do NOT want a boring black-and-white website or a typical corporate template.
+
+### Color palette
+
+Use a harmonious combination of:
+
+* Bubblegum pink: `#FF6FAE`
+* Hot pink: `#FF4F9A`
+* Sunshine yellow: `#FFD84D`
+* Sky blue: `#64C9FF`
+* Electric blue: `#5271FF`
+* Lavender: `#B8A1FF`
+* Peach: `#FFB38A`
+* Mint green: `#91E6C1`
+* Warm cream: `#FFF9F0`
+* Deep navy: `#202444`
+
+Use cream as the primary background, pink for personality, blue for technology-focused elements, and yellow for highlights.
+
+Use lavender, peach, and mint as complementary accents throughout the website.
+
+### Design style
+
+* Large, bold, expressive headings.
+* Beautiful typography with a modern sans-serif font and an optional display font.
+* Colorful gradient backgrounds in selected sections.
+* Asymmetrical layouts and creative compositions.
+* Clean spacing and strong visual hierarchy.
+* Rounded corners used selectively.
+* Beautiful project cards with colorful borders and subtle shadows.
+* Smooth transitions and polished hover interactions.
+* Attractive code-inspired details and technical illustrations.
+* A consistent design system across the website.
+
+Make the website feel youthful, intelligent, creative, and professional.
+
+Avoid excessive gradients, clutter, unnecessary floating elements, generic AI illustrations, and oversized decorative components.
+
+The website should be colorful without compromising readability or recruiter credibility.
+
+---
+
+## 3. Hero Section
+
+Create a striking first screen that immediately communicates my professional identity.
+
+Display my name prominently:
+
+**Kumkum Solanki**
+
+Main headline:
+
+**"Building Intelligent Solutions, One Idea at a Time."**
+
+Supporting description:
+
+"AI/ML graduate passionate about machine learning, data science, and software development. I turn ideas into practical applications through code, experimentation, and problem-solving."
+
+Add a subtle animated text sequence cycling through:
+
+* Artificial Intelligence
+* Machine Learning
+* Data Science
+* Software Development
+* Computer Vision
+
+Add three buttons:
+
+1. Explore My Projects
+2. Download Resume
+3. Contact Me
+
+The first button should scroll to the projects section. The second must link to my actual resume PDF. The third should navigate to the contact section.
+
+### Hero visual
+
+Create a beautiful profile layout with a portrait area surrounded by colorful pink, blue, and yellow shapes.
+
+Use my real photograph if provided. If no photograph is available, create a clean, attractive placeholder that I can replace easily. Never invent a photograph of me.
+
+Include subtle animations, a soft gradient background, and a few technical visual details such as a network pattern or abstract code elements.
+
+Keep the first screen polished and uncluttered.
+
+---
+
+## 4. About Me
+
+Create an attractive About Me section with a two-column layout.
+
+Use this text:
+
+"I'm a Computer Science graduate specializing in Artificial Intelligence and Machine Learning. My interests span machine learning, computer vision, data analysis, and full-stack application development.
+
+I enjoy building projects that combine analytical thinking with practical implementation. From developing ResuMatch with React and FastAPI to experimenting with deep learning and forecasting models, I continuously work on strengthening my technical skills.
+
+I believe the best way to learn technology is by building, testing, and improving real applications. I'm looking forward to contributing to a professional engineering team and growing through meaningful technical work."
+
+Add colorful skill tags:
+
+Python · Machine Learning · SQL · Deep Learning · React · FastAPI · Data Science
+
+Use a lavender or peach accent background, with clear typography and a polished layout.
+
+---
+
+## 5. Featured Project: ResuMatch
+
+This is my most important project. Give it a dedicated featured section with a large, colorful project card and a detailed case study.
+
+**Project name:** ResuMatch
+
+**Subtitle:** AI Resume Analysis and Enhancement System
+
+### Project overview
+
+"ResuMatch is an AI-powered resume analysis and enhancement platform designed to help job seekers understand how well their resumes align with job descriptions and identify opportunities to improve their applications."
+
+### Features
+
+* Upload and analyze resume PDFs.
+* Extract resume text for analysis.
+* Analyze job descriptions.
+* Calculate an ATS-style resume score.
+* Match resume information against job requirements.
+* Identify matching and missing skills.
+* Recommend relevant skills and keywords.
+* Suggest relevant projects, courses, and learning resources.
+* Rewrite and improve resume bullet points.
+* Provide actionable resume enhancement recommendations.
+
+Only describe features that are present in my implementation.
+
+### Technology stack
+
+* Frontend: React
+* Backend: FastAPI
+* Language: Python
+* API integration and text-processing logic
+* NLP-related analysis
+
+### Development details
+
+The application has a React frontend and a FastAPI backend, and the website and backend have been deployed successfully.
+
+Showcase my work through a professional case study containing:
+
+1. Problem statement.
+2. Project objectives.
+3. Solution overview.
+4. Key features.
+5. Technology stack.
+6. Technical implementation.
+7. Challenges and learning outcomes.
+8. Screenshots or application previews.
+9. Live Demo and GitHub links.
+
+Do not invent challenges, performance metrics, accuracy scores, user counts, or results. Make any case-study text that needs further confirmation editable.
+
+### Visual presentation
+
+Create a colorful dashboard mockup showing:
+
+* Resume upload interface.
+* Resume match score.
+* Matching and missing skills.
+* Job-description analysis.
+* Recommendations panel.
+
+Use an electric-blue and lavender background with sunshine-yellow highlights and pink accents.
+
+If actual screenshots are available, use them. Otherwise, create an illustrative HTML/CSS mockup and clearly distinguish it from the live application.
+
+Add these buttons:
+
+* Live Demo
+* GitHub Repository
+* View Case Study
+
+Keep the URLs configurable. If a real URL is unavailable, do not display a broken link or invent one.
+
+---
+
+## 6. Other Technical Projects
+
+Build a colorful, responsive project gallery. Each project should have a distinct accent color, a concise description, technology tags, a visual preview, and a detailed project page or modal.
+
+### Project 1: Plant Disease Detection with Grad-CAM
+
+**Description:**
+
+"Developed a deep learning pipeline to classify plant diseases from leaf images using CNN and transfer learning, with Grad-CAM visualizations to highlight image regions influencing predictions."
+
+**Technologies:**
+Python, CNN, Transfer Learning, OpenCV, Grad-CAM.
+
+**Key contributions:**
+
+* Image preprocessing and augmentation.
+* Deep learning-based leaf image classification.
+* Visual model interpretability using Grad-CAM.
+* An end-to-end prediction workflow.
+
+**Visual style:** Mint green, cream, and blue.
+
+Show a plant leaf classification interface and an illustrative explainability heatmap. Do not fabricate model accuracy.
+
+### Project 2: AI Stock Price Prediction System
+
+**Description:**
+
+"Developed a time-series forecasting system combining LSTM, GRU, and ARIMA approaches to study historical stock trends and compare predicted and actual values."
+
+**Technologies:**
+Python, Pandas, LSTM, GRU, ARIMA, Streamlit.
+
+**Key contributions:**
+
+* Historical data preprocessing.
+* Data cleaning and normalization.
+* Feature engineering and technical indicators.
+* Predicted-versus-actual trend visualization.
+* Monte Carlo Dropout for uncertainty exploration, where implemented.
+
+**Visual style:** Sky blue, lavender, and navy.
+
+Show a professional financial dashboard preview with line charts and forecasting panels. Clearly label illustrative data.
+
+Do not claim that forecasts guarantee returns or provide reliable investment advice.
+
+### Project 3: AI Traffic Density Detection
+
+**Description:**
+
+"Developed a computer vision project using YOLO-based object detection to identify vehicles in traffic footage and support traffic-density analysis."
+
+**Technologies:**
+Python, YOLOv8, Ultralytics, Computer Vision, Streamlit.
+
+**Key contributions:**
+
+* Vehicle detection using supported vehicle classes.
+* Image or video processing.
+* Traffic analysis and visualization, where implemented.
+* Streamlit-based application interface.
+
+**Visual style:** Sunshine yellow, sky blue, and charcoal.
+
+Create a visual mockup featuring a road scene with bounding boxes and detection labels. Do not claim unsupported features or performance figures.
+
+### Project 4: Intent-OS — Voice-Controlled Desktop Automation
+
+**Description:**
+
+"An automation-focused project exploring voice commands to simplify desktop interactions and computer workflows."
+
+Highlight the actual implemented capabilities without inventing commands, integrations, or automation features.
+
+**Visual style:** Pink, lavender, and deep navy.
+
+### Project 5: Lifestyle Tracker
+
+**Description:**
+
+"A lifestyle tracking application concept focused on organizing daily habits and routines through a user-friendly interface."
+
+Show this as an application project or concept according to its actual implementation.
+
+**Visual style:** Peach, mint, and pink.
+
+### Project card requirements
+
+Every project card must include:
+
+* Project title.
+* Short description.
+* Technology tags.
+* A project preview.
+* View Details button.
+* Live Demo button when a real URL is provided.
+* GitHub button when a real repository URL is provided.
+
+Create consistent project detail layouts containing the problem, solution, technologies, implementation, and learnings where supported.
+
+Make ResuMatch visually larger and more prominent than the other projects.
+
+---
+
+## 7. Technical Skills
+
+Create a vibrant skills section using a responsive bento grid, colorful category panels, and technology tags.
+
+### Programming Languages
+
+Python, Java, SQL, C, C++, HTML.
+
+### Artificial Intelligence and Machine Learning
+
+Artificial Intelligence, Machine Learning, Deep Learning, CNN, LSTM, GRU, ARIMA, Computer Vision, NLP fundamentals.
+
+### Data Science and Analysis
+
+NumPy, Pandas, Matplotlib, Seaborn, Data Analysis, Data Visualization, Excel, Power BI (basic), Tableau.
+
+### Frameworks and Libraries
+
+PyTorch, TensorFlow, OpenCV, Ultralytics/YOLO.
+
+### Web Development
+
+React, FastAPI, REST APIs, Streamlit.
+
+### Databases
+
+MySQL.
+
+### Developer Tools
+
+Git, GitHub, VS Code, Jupyter Notebook.
+
+### Computer Science Fundamentals
+
+Data Structures and Algorithms, Object-Oriented Programming, Core Java.
+
+Use pink, blue, lavender, yellow, and mint accents across the category panels.
+
+Make the section easy for recruiters to scan.
+
+Do not use fake proficiency percentages, unsupported skill ratings, or exaggerated expertise claims.
+
+---
+
+## 8. Education
+
+Create an attractive education section with a colorful timeline or card layout.
+
+### B.Tech — Computer Science Engineering (AI & ML)
+
+KCC Institute of Technology and Management, Greater Noida, Uttar Pradesh.
+
+September 2022 – June 2026.
+
+CGPA: 7.55/10.
+
+### Class XII
+
+Maharaja Agrasen Public School, Khurja, Uttar Pradesh.
+
+Percentage: 95%.
+
+Use a clean, colorful layout with subtle timeline animations and clear academic details.
+
+---
+
+## 9. Achievements and Training
+
+Showcase my achievements in a separate professional section.
+
+### Smart India Hackathon
+
+Led a team that developed a virtual herbal garden solution and qualified for the second round.
+
+Highlight teamwork, innovation, and problem-solving.
+
+### HCL Technologies — Java with AI Training
+
+Completed training covering Java fundamentals, AI concepts, and machine learning model integration.
+
+### Deloitte Australia Data Analytics Job Simulation — Forage
+
+Completed a data analytics simulation involving data analysis, forensic technology use cases, Excel-based analysis, and Tableau dashboards.
+
+Present these accurately as achievements, training, and simulation experience, not as full-time employment.
+
+Use colorful cards with suitable icons and concise descriptions.
+
+---
+
+## 10. Resume Download Section
+
+Create a professional Resume section.
+
+Display:
+
+* Kumkum Solanki.
+* AI/ML and Software Development profile.
+* A short professional summary.
+* A Download Resume button.
+* An optional View Resume button.
+
+Use my actual uploaded resume PDF if available as a project asset. Otherwise, provide a clear location to add it.
+
+Ensure that both buttons work and link to a real PDF file. Never simulate a successful download when the file does not exist.
+
+---
+
+## 11. Contact Section
+
+Heading:
+
+"Let's Build Something Meaningful."
+
+Supporting text:
+
+"I'm interested in opportunities in AI/ML engineering, data science, data analytics, and software development. I'd love to connect with teams working on meaningful technical challenges."
+
+Display:
+
+* Email: [kumkumsolanki0111@gmail.com](mailto:kumkumsolanki0111@gmail.com)
+* Phone: +91-9058465295
+* LinkedIn: configurable URL.
+* GitHub: configurable URL.
+* LeetCode: configurable URL.
+
+Create a contact form with:
+
+* Full Name
+* Email Address
+* Subject
+* Message
+* Send Message button
+
+Implement validation and a real submission mechanism. If no backend or email service has been configured, provide a working mailto fallback and clearly explain how to enable proper form delivery.
+
+Do not claim messages have been sent when they have not.
+
+Use a colorful blue-and-pink or pink-and-yellow gradient section with accessible text contrast.
+
+---
+
+## 12. Navigation and Footer
+
+Create a responsive navigation bar with:
+
+* Home
+* About
+* Projects
+* Skills
+* Education
+* Achievements
+* Contact
+
+Use "Kumkum Solanki" as the logo or wordmark.
+
+The navbar should be clean, colorful, and easy to use on mobile.
+
+Add a professional footer with my name, email, social links, and copyright year.
+
+Do not include Instagram creator content or unrelated personal sections.
+
+---
+
+## 13. Animations and Interactions
+
+Use Framer Motion or Motion for React where appropriate.
+
+Implement:
+
+* Smooth scrolling.
+* Hero text reveal.
+* Subtle profile image animation.
+* Scroll-triggered section reveals.
+* Colorful project card hover effects.
+* Animated technology tags.
+* Interactive project detail views.
+* Smooth mobile navigation.
+* A back-to-top button.
+* Subtle gradient transitions.
+
+Use animations purposefully. Avoid excessive movement and performance-heavy effects.
+
+Respect reduced-motion preferences and ensure that all essential content remains accessible without animation.
+
+---
+
+## 14. Technical Implementation
+
+Use:
+
+* React
+* TypeScript
+* Vite
+* Tailwind CSS or an equivalent styling system
+* Framer Motion or Motion for React
+* Lucide icons
+
+Build reusable components for:
+
+* Navbar
+* Hero
+* About
+* FeaturedProject
+* ProjectGallery
+* ProjectDetails
+* Skills
+* Education
+* Achievements
+* Resume
+* Contact
+* Footer
+
+Create a centralized configuration file for my personal information, project data, skills, education, achievements, image paths, and external URLs.
+
+The site must be responsive on desktop, laptop, tablet, and mobile.
+
+Use semantic HTML, accessible labels, appropriate contrast, keyboard navigation, and optimized image loading.
+
+Add SEO metadata:
+
+**Title:** Kumkum Solanki | AI/ML & Software Development Portfolio
+
+**Description:** Explore Kumkum Solanki's AI/ML projects, software applications, technical skills, education, and achievements in machine learning and data science.
+
+Do not add unnecessary authentication, databases, or backend services when they are not needed.
+
+---
+
+## 15. Final Quality Checklist
+
+Before completing the project:
+
+1. Run the website and resolve build errors.
+2. Check for runtime errors.
+3. Test all navigation links and buttons.
+4. Test the mobile and desktop layouts.
+5. Verify that project information is accurate.
+6. Check that missing images and URLs do not break the layout.
+7. Verify the actual resume PDF download.
+8. Verify contact form behavior.
+9. Remove generic filler text and fake performance statistics.
+10. Ensure ResuMatch is the main featured project.
+11. Ensure the colorful design remains professional and readable.
+12. Confirm that every requested section is implemented.
+
+Do not stop after creating the homepage or hero section. Build the complete website.
+
+At the end, explain how to run, customize, and deploy the website, where to add my portrait and resume PDF, and how to update project URLs and contact settings.
+
+**Final vision:** A distinctive, colorful pink-yellow-blue professional portfolio with premium UI/UX, polished animations, beautiful project previews, and strong technical storytelling. It must communicate that I am an AI/ML graduate who builds practical projects and is ready to pursue professional opportunities in AI/ML, data science, data analytics, and software development.
