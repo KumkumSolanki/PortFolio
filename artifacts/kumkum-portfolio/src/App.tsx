@@ -260,8 +260,7 @@ function App() {
                 <p>React frontend · FastAPI backend · Python · NLP-related text processing</p>
                 <div className="feature-actions">
                   <button type="button" className="button button-primary" onClick={() => setSelectedProject(projects[0])} data-testid="button-resumatch-details">View case study <ArrowUpRight size={15} /></button>
-                  <button type="button" className="button button-light" disabled aria-disabled="true" title="A real project URL has not been supplied" data-testid="button-resumatch-demo">Live demo unavailable</button>
-                  <button type="button" className="button button-light" disabled aria-disabled="true" title="A real repository URL has not been supplied" data-testid="button-resumatch-github">Repository unavailable</button>
+                  {projects[0].githubUrl && <a className="button button-light" href={projects[0].githubUrl} target="_blank" rel="noreferrer" data-testid="link-resumatch-github"><Github size={15} /> GitHub repository <ArrowUpRight size={15} /></a>}
                 </div>
               </div>
               <div>
@@ -288,7 +287,7 @@ function App() {
                     <div className="project-tags">{project.technologies.map((tech) => <span key={tech}>{tech}</span>)}</div>
                     <div className="project-bottom">
                       <button className="details-link" type="button" onClick={() => setSelectedProject(project)} data-testid={`button-project-details-${project.id}`}>View details <ArrowUpRight size={15} /></button>
-                      <span className="no-links">Project links not supplied</span>
+                      {project.githubUrl && <a className="details-link" href={project.githubUrl} target="_blank" rel="noreferrer" data-testid={`link-project-github-${project.id}`}><Github size={14} /> GitHub <ArrowUpRight size={14} /></a>}
                     </div>
                   </div>
                 </article>
@@ -382,9 +381,8 @@ function App() {
                 <div className="contact-method" data-testid="text-contact-location"><span className="method-icon"><MapPin size={17} /></span>{portfolio.location}</div>
               </div>
               <div className="social-row" aria-label="Professional profiles">
-                {portfolio.links.linkedin ? <a className="social-chip" href={portfolio.links.linkedin} target="_blank" rel="noreferrer" data-testid="link-social-linkedin">LinkedIn <ArrowUpRight size={12} /></a> : <span className="social-chip" aria-disabled="true" title="Add a real profile URL in src/portfolio-data.ts">LinkedIn · not configured</span>}
-                {portfolio.links.github ? <a className="social-chip" href={portfolio.links.github} target="_blank" rel="noreferrer" data-testid="link-social-github"><Github size={12} /> GitHub <ArrowUpRight size={12} /></a> : <span className="social-chip" aria-disabled="true" title="Add a real profile URL in src/portfolio-data.ts">GitHub · not configured</span>}
-                {portfolio.links.leetcode ? <a className="social-chip" href={portfolio.links.leetcode} target="_blank" rel="noreferrer" data-testid="link-social-leetcode">LeetCode <ArrowUpRight size={12} /></a> : <span className="social-chip" aria-disabled="true" title="Add a real profile URL in src/portfolio-data.ts">LeetCode · not configured</span>}
+                <a className="social-chip" href={portfolio.links.linkedin} target="_blank" rel="noreferrer" data-testid="link-social-linkedin">LinkedIn <ArrowUpRight size={12} /></a>
+                <a className="social-chip" href={portfolio.links.github} target="_blank" rel="noreferrer" data-testid="link-social-github"><Github size={12} /> GitHub <ArrowUpRight size={12} /></a>
               </div>
             </div>
             <form className="contact-form" onSubmit={onContactSubmit} noValidate data-testid="form-contact">

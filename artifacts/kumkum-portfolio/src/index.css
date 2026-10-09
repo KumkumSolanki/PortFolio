@@ -227,7 +227,6 @@ a { color: inherit; }
 .project-bottom { display:flex; align-items:center; justify-content:space-between; }
 .details-link { border:0; background:transparent; color:#b5326d; font-weight:700; font-size:13px; cursor:pointer; padding:9px 0; display:flex; align-items:center; gap:8px; }
 .details-link:hover { text-decoration:underline; text-underline-offset:4px; }
-.no-links { color:#828397; font:10px var(--app-font-mono); }
 
 .skills { background:#f9e8f0; }
 .skills-layout { display:grid; grid-template-columns:.78fr 1.22fr; gap:75px; align-items:start; }

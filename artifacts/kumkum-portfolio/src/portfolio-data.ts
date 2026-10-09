@@ -1,16 +1,15 @@
 export const portfolio = {
   name: 'Kumkum Solanki',
-  title: 'AI/ML Engineer Aspirant | Software Developer | Data Science Enthusiast',
-  location: 'Khurja, Uttar Pradesh, India',
+  title: 'AI/ML Engineer Aspirant | Data Science Enthusiast',
+  location: 'Greater Noida, Uttar Pradesh',
   email: 'kumkumsolanki0111@gmail.com',
   phone: '+91-9058465295',
   phoneHref: 'tel:+919058465295',
   portraitPath: '/assets/kumkum-solanki-portrait.png',
   resumePath: '/assets/kumkum-solanki-resume.pdf',
   links: {
-    linkedin: null as string | null,
-    github: null as string | null,
-    leetcode: null as string | null,
+    linkedin: 'https://www.linkedin.com/in/kumkum-solanki-892a40281/?isSelfProfile=true',
+    github: 'https://github.com/KumkumSolanki',
   },
   intro:
     "I'm Kumkum Solanki, a Computer Science graduate specializing in Artificial Intelligence and Machine Learning. I enjoy building practical applications, exploring machine learning techniques, analyzing data, and developing software that solves real-world problems. My projects include ResuMatch, an AI-powered resume analysis and enhancement platform, a plant disease detection system using deep learning, a stock price prediction system, and a computer vision-based traffic detection project. I am interested in AI/ML engineering, data science, data analytics, and software development opportunities where I can apply my technical knowledge, contribute to meaningful projects, and continue growing as an engineer.",
@@ -46,7 +45,6 @@ export type Project = {
   implementation: string[];
   learning: string;
   features: string[];
-  demoUrl: string | null;
   githubUrl: string | null;
 };
 
@@ -82,8 +80,7 @@ export const projects: Project[] = [
       'Suggest projects, courses, and learning resources',
       'Rewrite bullet points and provide improvement recommendations',
     ],
-    demoUrl: null,
-    githubUrl: null,
+    githubUrl: 'https://github.com/KumkumSolanki/ResuMatch',
   },
   {
     id: 'plant-disease',
@@ -105,8 +102,7 @@ export const projects: Project[] = [
     ],
     learning: 'The project combines image preparation, model experimentation, and explainability techniques in a computer-vision workflow.',
     features: ['Image preprocessing and augmentation', 'Leaf image classification', 'Grad-CAM visualization', 'End-to-end prediction workflow'],
-    demoUrl: null,
-    githubUrl: null,
+    githubUrl: 'https://github.com/KumkumSolanki/plant-disease-detection',
   },
   {
     id: 'stock-forecast',
@@ -130,8 +126,7 @@ export const projects: Project[] = [
     learning:
       'The work explores time-series preparation and model comparison. Visuals use illustrative data only and do not represent real predictions or investment advice.',
     features: ['Data cleaning and normalization', 'Feature engineering', 'Approach comparison', 'Trend visualization'],
-    demoUrl: null,
-    githubUrl: null,
+    githubUrl: 'https://github.com/KumkumSolanki/AI-Stock-Prediction-System',
   },
   {
     id: 'traffic-detection',
@@ -153,8 +148,7 @@ export const projects: Project[] = [
     ],
     learning: 'The project explores applying object detection to visual input and presenting results through an application interface.',
     features: ['YOLO-based vehicle detection', 'Image or video processing', 'Traffic analysis where implemented', 'Streamlit interface'],
-    demoUrl: null,
-    githubUrl: null,
+    githubUrl: 'https://github.com/KumkumSolanki/AI-Traffic-Density-Detection',
   },
   {
     id: 'intent-os',
@@ -170,7 +164,6 @@ export const projects: Project[] = [
     implementation: ['An automation-focused project exploring voice commands and desktop interaction.'],
     learning: 'Further implementation specifics can be added here as the project scope is confirmed.',
     features: ['Voice-command interaction exploration', 'Desktop workflow automation concept'],
-    demoUrl: null,
     githubUrl: null,
   },
   {
@@ -187,7 +180,6 @@ export const projects: Project[] = [
     implementation: ['An application concept focused on daily habits and routines.'],
     learning: 'Add confirmed implementation details and technologies as they become available.',
     features: ['Habit and routine organization concept'],
-    demoUrl: null,
     githubUrl: null,
   },
 ];
@@ -213,7 +205,7 @@ export const education = [
   {
     title: 'Class XII',
     institution: 'Maharaja Agrasen Public School',
-    location: 'Khurja, Uttar Pradesh',
+    location: 'Uttar Pradesh',
     date: 'Senior secondary education',
     result: '95%',
   },
