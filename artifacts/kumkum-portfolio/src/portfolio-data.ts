@@ -5,8 +5,8 @@ export const portfolio = {
   email: 'kumkumsolanki0111@gmail.com',
   phone: '+91-9058465295',
   phoneHref: 'tel:+919058465295',
-  portraitPath: null as string | null,
-  resumePath: null as string | null,
+  portraitPath: '/assets/kumkum-solanki-portrait.png',
+  resumePath: '/assets/kumkum-solanki-resume.pdf',
   links: {
     linkedin: null as string | null,
     github: null as string | null,

@@ -265,6 +265,8 @@ a { color: inherit; }
 .resume p { max-width:640px; color:#fff0f6; line-height:1.65; margin:0; }
 .resume-status { font:11px var(--app-font-mono); color:#fff0f6; margin-top:14px; }
 .resume .button { background:var(--yellow); border-color:var(--navy); color:var(--navy); white-space:nowrap; }
+.resume-actions { display:flex; flex-wrap:wrap; gap:12px; }
+.resume .button.resume-view { background:transparent; border-color:#fff; color:#fff; }
 
 .contact { background:var(--cream); padding:115px 0 100px; }
 .contact-shell { display:grid; grid-template-columns:.85fr 1.15fr; gap:72px; }

@@ -199,12 +199,16 @@ function App() {
               <p className="hero-fields" aria-live="polite" data-testid="text-rotating-specialty">Exploring · {portfolio.specialties[specialtyIndex]}</p>
               <div className="hero-actions">
                 <a className="button button-primary" href="#projects" data-testid="link-explore-projects">Explore my projects <ArrowDownRight size={16} /></a>
-                <button className="button button-light" type="button" disabled={!portfolio.resumePath} aria-disabled={!portfolio.resumePath} title="Add a real resume PDF in src/portfolio-data.ts to enable this action" data-testid="button-download-resume"><FileText size={16} /> Resume unavailable</button>
+                {portfolio.resumePath ? (
+                  <a className="button button-light" href={portfolio.resumePath} download data-testid="link-download-resume"><FileText size={16} /> Download resume</a>
+                ) : (
+                  <button className="button button-light" type="button" disabled aria-disabled="true" data-testid="button-download-resume"><FileText size={16} /> Resume unavailable</button>
+                )}
                 <a className="button button-quiet" href="#contact" data-testid="link-contact-me">Contact me <ArrowUpRight size={15} /></a>
               </div>
               <div className="hero-scroll"><ArrowDownRight size={14} /> Scroll to explore</div>
             </div>
-            <div className="portrait-stage" aria-label="Portrait placeholder">
+              <div className="portrait-stage" aria-label={portfolio.portraitPath ? `Portrait of ${portfolio.name}` : 'Portrait placeholder'}>
               <div className="orbit orbit-a">Python · ML</div>
               <div className="orbit orbit-b">build / learn / repeat</div>
               <div className="orbit orbit-c">AI + practical software</div>
@@ -352,10 +356,17 @@ function App() {
             <div>
               <div className="section-kicker">Resume</div>
               <h2>One page. The full picture.</h2>
-              <p>{portfolio.name} · AI/ML and software development profile. For now, the resume file has not been provided; add a real PDF path to the central configuration to enable downloads.</p>
-              <div className="resume-status" data-testid="status-resume-unavailable">No resume file configured — no download link is shown.</div>
+              <p>{portfolio.name} · AI/ML and software development profile. View or download the current one-page resume PDF.</p>
+              <div className="resume-status" role="status" data-testid="status-resume-available">Resume PDF available to view and download.</div>
             </div>
-            <button type="button" className="button" disabled aria-disabled="true" title="Configure portfolio.resumePath when the actual PDF is ready" data-testid="button-resume-download"><FileText size={17} /> Resume not available</button>
+            {portfolio.resumePath ? (
+              <div className="resume-actions">
+                <a className="button" href={portfolio.resumePath} download data-testid="link-resume-download"><FileText size={17} /> Download Resume</a>
+                <a className="button resume-view" href={portfolio.resumePath} target="_blank" rel="noreferrer" data-testid="link-resume-view"><FileText size={17} /> View Resume</a>
+              </div>
+            ) : (
+              <button type="button" className="button" disabled aria-disabled="true" data-testid="button-resume-download"><FileText size={17} /> Resume not available</button>
+            )}
           </div>
         </section>
 
