@@ -1,0 +1,29 @@
+kind = "video"
+previewPath = "/kumkum-portfolio-film/"
+title = "Kumkum Solanki — Portfolio Film"
+description = "A short, vertical animated portfolio film introducing Kumkum Solanki and highlighting her AI/ML projects, including ResuMatch, plant disease detection, stock prediction, and traffic density detection."
+version = "1.0.0"
+id = "artifacts/kumkum-portfolio-film"
+router = "path"
+
+[[services]]
+name = "web"
+paths = [ "/kumkum-portfolio-film/" ]
+localPort = 22258
+
+[services.development]
+run = "pnpm --filter @workspace/kumkum-portfolio-film run dev"
+
+[services.production]
+build = [ "pnpm", "--filter", "@workspace/kumkum-portfolio-film", "run", "build" ]
+serve = "static"
+publicDir = "artifacts/kumkum-portfolio-film/dist/public"
+
+[[services.production.rewrites]]
+from = "/*"
+to = "/index.html"
+
+[services.env]
+PORT = "22258"
+BASE_PATH = "/kumkum-portfolio-film/"
+videoAspectRatio = "9:16"
